@@ -1,5 +1,5 @@
-# PerfectWorld  1.7.6 by Dragonheart (C)2024
-
+# PerfectWorld  1.7.6 by Dragonheart (C) 2024
+Only works on ubuntu 22.04
 ## How to install on  ubuntu 22.04
 
 1. add the 32bit Libery and update your Server
@@ -18,21 +18,14 @@ apt -y install make gcc g++ libssl-dev:i386 libssl-dev libcrypto++-dev libpcre3 
 apt -y install libdb++-dev libdb-dev libdb5.3 libdb5.3++ libdb5.3++-dev libdb5.3-dbg libdb5.3-dev
 ````
 ````
-apt -y install make gcc g++ libssl-dev libssl-dev libcrypto++-dev libpcre3 libpcre3-dev libpcre3 libpcre3-dev libtesseract-dev libx11-dev libx11-dev gcc-multilib libc6-dev build-essential gcc-multilib g++-multilib libtemplate-plugin-xml-perl libxml2-dev libxml2-dev libxml2 libstdc++6 libmariadb-dev-compat libmariadb-dev
-````
-````
 mysql_secure_installation
 ````
-3. install Java and Mariadb
-````
-apt install -y default-jdk mariadb-server
-````
 
- 4. (Optional) apache and php
+ 3. (Optional) apache and php
 ````
 apt install -y php libapache2-mod-php php-cli php-fpm php-json php-pdo php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath php-cgi php-mysqli php-common php-phpseclib php-mysql
 ````
-5. (optional) phpmyadmin
+4. (optional) phpmyadmin
 ````
 apt install -y phpmyadmin
 ````
