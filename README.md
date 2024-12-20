@@ -1,6 +1,6 @@
-# PerfectWorld  1.7.6 by Dragonheart (C) 2024
-Only works on ubuntu 22.04
-## How to install on  ubuntu 22.04
+# PerfectWorld  1.7.3 by Dragonheart (C) 2024
+Only works on Debian 11
+## How to install on  Debian 11
 
 1. add the 32bit Libery and update your Server
 ````
@@ -29,7 +29,7 @@ apt install -y php libapache2-mod-php php-cli php-fpm php-json php-pdo php-zip p
 ````
 apt install -y phpmyadmin
 ````
-
+## Only if you have the Source
 # Compile
 ````cd /root/share/ ````
 ````make clean```` 
