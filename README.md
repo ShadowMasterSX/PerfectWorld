@@ -1,4 +1,4 @@
-# PerfectWorld  1.7.3 by Dragonheart (C) 2024
+# PerfectWorld  1.7.6 by Dragonheart (C) 2024
 works on Debian 11 and ubuntu 22
 ## How to install on  Debian 11 and Ubuntu 22
 
