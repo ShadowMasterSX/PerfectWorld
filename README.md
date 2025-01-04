@@ -52,6 +52,14 @@ apt install -y phpmyadmin
 ````make -f Makefile.gs clean````
 ````make -f Makefile.gs````
 
+````cd /root/cnet/gamedbd````
+````make clean```` 
+````make````
+
+````cd /root/cnet/gdeliveryd````
+````make clean```` 
+````make````
+
 ````cd /root/cskill````
 ````make clean````
 ````make````
