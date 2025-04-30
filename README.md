@@ -1,6 +1,6 @@
-# PerfectWorld  up to 1.7.8 by Sranus (C) 2025
-works on Debian 11 12  and ubuntu 22 24
-## How to install on  Debian 11 12  and Ubuntu 22 24
+# PerfectWorld  1.7.4 - 1.7.8 by Ragezone
+works on Debian 12 and ubuntu 24
+## How to install on  Debian and Ubuntu
 
 1. add the 32bit Libery and update your Server
 ````
@@ -28,7 +28,7 @@ apt-get install -y apache2 php  php-cli php-fpm php-json php-pdo php-zip php-gd 
 ````
 4. (optional) phpmyadmin (not secure for Live Server)
 ````
-apt-get install phpmyadmin
+apt-get install -y phpmyadmin
 ````
 ## Only if you have the Source
 # Compile
