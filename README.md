@@ -1,6 +1,8 @@
 # PerfectWorld  1.7.4 - 1.7.8 by Ragezone
-works on Debian 12 and ubuntu 24
+works on Debian 11 and ubuntu 22
 ## How to install on  Debian and Ubuntu
+
+0. Use pw_install.sh (Thanks to Talolan on Ragezone)
 
 1. add the 32bit Libery and update your Server
 ````
