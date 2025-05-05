@@ -4,8 +4,19 @@ works on Debian 11 and ubuntu 22
 
 ## Automatic
 
-0. Use pw_install.sh (Thanks to Talolan on Ragezone)
-1. Use pw-build.sh to build the server
+0.0 Use pw_install.sh (Thanks to Talolan on Ragezone)
+0.1 cd /home/; wget https://akranis-games.de/share/PW-Server-1.7.4-fixed.tgz
+0.2 cd /home/; tar -xvf PW-Server-1.7.4-fixed.tgz
+0.3 Setup your Server Database
+0.4 Copy libskill.so & libtask.so 
+````
+cp /home/gamed/libskill.so /usr/lib/
+````
+````
+cp /home/gamed/libtask.so /usr/lib/
+````
+---------------------------------------------------------------------------------------------------------------------------------------
+2. Use pw-build.sh to build the server
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 ## Manual
@@ -38,8 +49,10 @@ apt-get install -y apache2 php  php-cli php-fpm php-json php-pdo php-zip php-gd 
 ````
 apt-get install -y phpmyadmin
 ````
+---------------------------------------------------------------------------------------------------------------------------------------
 ## Only if you have the Source
-# Compile
+# Compile the Source
+---------------------------------------------------------------------------------------------------------------------------------------
 ````cd /root/ ````
 ````nano build.sh```` 
 ````#!/bin/bash
