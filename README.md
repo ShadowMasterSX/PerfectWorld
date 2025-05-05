@@ -2,9 +2,15 @@
 works on Debian 11 and ubuntu 22
 ## How to install on  Debian and Ubuntu
 
-0. Use pw_install.sh (Thanks to Talolan on Ragezone)
+## Automatic
 
-1. add the 32bit Libery and update your Server
+0. Use pw_install.sh (Thanks to Talolan on Ragezone)
+1. Use pw-build.sh to build the server
+---------------------------------------------------------------------------------------------------------------------------------------
+
+## Manual
+
+1. add the 32bit Libery and update your Server not sure its works °_°
 ````
   dpkg --add-architecture i386; apt update; apt upgrade -y
 ````
