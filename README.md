@@ -8,7 +8,7 @@ works on Debian 11 and ubuntu 22
 
 ### 0.1 Download the Server
 ````
-cd /home/; wget https://akranis-games.de/share/PW-Server-1.7.4-fixed.tgz
+cd /home/; wget https://sagezone.eu/share/PW-Server-1.7.4-fixed.tgz
 ````
 0.2 Extract the Server
 ````
